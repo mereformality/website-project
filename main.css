@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
+
+* {
+    font-family: 'Texturina', serif;
+    margin: 1px 1px 1px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    align-content: center;
+}
+
+.box {
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 33%;
+
+}
+
+
+/* Colours for each box */
+
+.box1 { background: #251d42; }
+.box2 { background: #4e3e74; }
+.box3 { background: #8a6ebe; }
+.box4 { background: #251d42; }
+.box5 { background: #8a6ebe; }
+
+h1 {
+    font-size: 70pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 70pt;
+    text-align: center;
+}
+
+h3 {
+    font-size: 70pt;
+    text-align: center;
+}
